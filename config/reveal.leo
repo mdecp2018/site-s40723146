@@ -27,15 +27,21 @@
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180827201621.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
 </v>
 <v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
+</v>
+<v t="leo.20181026131600.1"><vh>個人倉儲</vh>
+<v t="leo.20181026131600.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181026132828.1" a="E"><vh>week 1</vh>
+<v t="leo.20181026132828.2"><vh>內容</vh></v>
 </v>
 </v>
 </v>
@@ -124,7 +130,8 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
+<t tx="leo.20180827201621.10">## 2018Fall 40723146 
+## 分組網際簡報
 
 ### 虎科大機械設計工程系
 
@@ -132,20 +139,15 @@ vertical: body pane on the botton</t>
 Created by [KMOLab](http://lab.kmol.info/)
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[40723146的分組網誌](https://mdecp2018.github.io/site-s40723146/blog/index.html)
 
 
 </t>
 <t tx="leo.20180827201621.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
 </t>
-<t tx="leo.20180827201621.12"># 投影片快捷鍵
+<t tx="leo.20180827201621.12">## 投影片快捷鍵
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -326,5 +328,31 @@ make.start()
 
 						
 </t>
+<t tx="leo.20181026131600.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181026131600.2">## s40723146的分組示範倉儲
+
+### [點我進入示範倉儲](https://mdecp2018.github.io/site-s40723146/content/index.html)</t>
+<t tx="leo.20181026132828.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181026132828.2">## week 1 練習影片
+
+### 說明如何利用 p37 中的 git建立 
+### 個人的 Github Pages 網站
+&lt;iframe src="https://www.youtube.com/watch?v=ax2ZuPm3YXc" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
