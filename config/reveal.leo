@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20180827201556.1"><vh>@settings</vh>
+<v t="leo.20180827201556.1" a="E"><vh>@settings</vh>
 <v t="leo.20180827201556.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180827201556.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
@@ -34,14 +34,20 @@
 <v t="leo.20180827201621.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180827201621.18"><vh>導入影片</vh>
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
-<v t="leo.20181026131600.1" a="E"><vh>個人倉儲</vh>
+<v t="leo.20181102154631.1" a="E"><vh>語言</vh>
+<v t="leo.20181102154631.2"><vh>iframe 導入影片</vh></v>
+</v>
+<v t="leo.20181026131600.1"><vh>個人倉儲</vh>
 <v t="leo.20181026131600.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20181026132828.1" a="E"><vh>week 1</vh>
 <v t="leo.20181026132828.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181102154447.1" a="E"><vh>week 2</vh>
+<v t="leo.20181102154447.2"><vh>內容</vh></v>
 </v>
 </v>
 </v>
@@ -134,10 +140,6 @@ vertical: body pane on the botton</t>
 ## 分組網際簡報
 
 ### 虎科大機械設計工程系
-
-&lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
-&lt;/small&gt;
 
 [40723146的分組網誌](https://mdecp2018.github.io/site-s40723146/blog/index.html)
 
@@ -351,12 +353,39 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181026132828.2">## week 1 練習影片
+<t tx="leo.20181026132828.2">## 練習影片 1
 
 #### 說明如何利用 p37 中的 git
 #### 建立個人的 Github Pages 網站
 &lt;iframe src="https://www.youtube.com/watch?v=ax2ZuPm3YXc" width="900" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
+<t tx="leo.20181102154447.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181102154447.2">## 練習影片 2
+
+#### 說明如何管理個人的期中作業網站內容
+&lt;iframe src="https://www.youtube.com/watch?v=ax2ZuPm3YXc" width="900" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20181102154631.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181102154631.2">### 一定要學的四種語言
+### 數學  英文  計算機  網路
+### 學習語言只有開始 沒有結束</t>
 </tnodes>
 </leo_file>
