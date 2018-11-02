@@ -339,7 +339,9 @@ make.start()
 </t>
 <t tx="leo.20181026131600.2">## s40723146的分組示範倉儲
 
-### [點我進入示範倉儲](https://mdecp2018.github.io/site-s40723146/content/index.html)</t>
+### [點我進入示範倉儲](https://mdecp2018.github.io/site-s40723146/content/index.html)
+
+</t>
 <t tx="leo.20181026132828.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -351,8 +353,10 @@ make.start()
 </t>
 <t tx="leo.20181026132828.2">## week 1 練習影片
 
-### 說明如何利用 p37 中的 git建立 
-### 個人的 Github Pages 網站
-&lt;iframe src="https://www.youtube.com/watch?v=ax2ZuPm3YXc" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+#### 說明如何利用 p37 中的 git
+#### 建立個人的 Github Pages 網站
+&lt;iframe src="https://www.youtube.com/watch?v=ax2ZuPm3YXc" width="900" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 </tnodes>
 </leo_file>
