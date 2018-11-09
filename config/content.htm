@@ -88,9 +88,60 @@
 <h3>Week 4-3</h3>
 <h4 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">上傳更新</yt-formatted-string></h4>
 <p><iframe width="560" height="314" src="//www.youtube.com/embed/ggkG3YhKDv0" allowfullscreen="allowfullscreen"></iframe></p>
-<h2>Week 5</h2><h4 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">說明如何在網頁上, 將 Brython 執行過的程式, 以 save as 的方式存成近端 .py 檔案.</yt-formatted-string></h4><pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 sys 模組import sys# 導入 keyword 模組import keyworddef helloWorld():    print("Hello World!")helloWorld()# 利用 sys 模組中的 version_info 印出 Python 版次print("Python version: ", sys.version_info)# 利用 keyword 模組中的 kwlist 印出關鍵字print("Python keywords: ", len(keyword.kwlist))</pre><pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 Ex1 原始碼a = 0def my_print(n, input_str):    print("以下將重覆列印 '", input_str + "' " + str(n) + "次")    for i in range(n):        print(i, input_str)my_print(5, "Hello World!")the_str = "開始學習 Python"num = input("請輸入要列印的次數!")my_print(int(num), the_str)a = a + 1print("(" + str(a) + ")", "_" * 25)def myfun():    yield 1    yield 2    yield 3for i in myfun():    print(i)x = iter(myfun())y = list(myfun())a = a + 1print("(" + str(a) + ")", "_" * 25)print(x.__next__())print(x.__next__())print(x.__next__())print(y)</pre><p><img src="/images/ShareX_2018-11-09_06-04-36.png" width="538" height="426" alt=""></p><p><iframe width="560" height="314" src="//www.youtube.com/embed/PQVJhOeLs0Q?t=1s" allowfullscreen="allowfullscreen"></iframe><iframe width="560" height="314" src="//www.youtube.com/embed/1ekgI3TLW5c" allowfullscreen="allowfullscreen"></iframe></p><p></p><h2>Week 6</h2>
-<h2>Week 7</h2>
-<h1>Python 手冊</h1>
+<h2>Week 5</h2>
+<h4 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">說明如何在網頁上, 將 Brython 執行過的程式, 以 save as 的方式存成近端 .py 檔案.</yt-formatted-string></h4>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 sys 模組
+import sys
+# 導入 keyword 模組
+import keyword
+
+def helloWorld():
+    print("Hello World!")
+
+helloWorld()
+
+# 利用 sys 模組中的 version_info 印出 Python 版次
+print("Python version: ", sys.version_info)
+# 利用 keyword 模組中的 kwlist 印出關鍵字
+print("Python keywords: ", len(keyword.kwlist))</pre>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 Ex1 原始碼
+a = 0
+def my_print(n, input_str):
+    print("以下將重覆列印 '", input_str + "' " + str(n) + "次")
+    for i in range(n):
+        print(i, input_str)
+
+my_print(5, "Hello World!")
+the_str = "開始學習 Python"
+num = input("請輸入要列印的次數!")
+my_print(int(num), the_str)
+a = a + 1
+print("(" + str(a) + ")", "_" * 25)
+
+def myfun():
+    yield 1
+    yield 2
+    yield 3
+
+for i in myfun():
+    print(i)
+
+x = iter(myfun())
+y = list(myfun())
+
+a = a + 1
+print("(" + str(a) + ")", "_" * 25)
+print(x.__next__())
+print(x.__next__())
+print(x.__next__())
+print(y)
+</pre>
+<p><img src="/images/ShareX_2018-11-09_06-04-36.png" width="538" height="426" alt=""></p>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/PQVJhOeLs0Q?t=1s" allowfullscreen="allowfullscreen"></iframe><iframe width="560" height="314" src="//www.youtube.com/embed/1ekgI3TLW5c" allowfullscreen="allowfullscreen"></iframe></p>
+<p></p><h2>Week 6</h2><h4 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">說明如何利用 git remote add 在倉儲中, 以代號表示遠端倉儲連結.</yt-formatted-string></h4><p>-------------------------------------------------------</p><p>老師影片</p><p><iframe width="560" height="314" src="//www.youtube.com/embed/Se0a951cohk?t=0s&amp;list=WL&amp;index=5" allowfullscreen="allowfullscreen"></iframe></p><p></p><div id="info" class="style-scope ytd-video-primary-info-renderer"><div id="info-text" class="style-scope ytd-video-primary-info-renderer"><div id="count" class="style-scope ytd-video-primary-info-renderer"></div></div><div id="flex" class="style-scope ytd-video-primary-info-renderer"></div><div id="menu-container" class="style-scope ytd-video-primary-info-renderer"><div id="menu" class="style-scope ytd-video-primary-info-renderer"><ytd-menu-renderer class="style-scope ytd-video-primary-info-renderer"><div id="top-level-buttons" class="style-scope ytd-menu-renderer"></div></ytd-menu-renderer></div></div></div><h2>Week 7</h2>
+<h4 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">說明如何利用 git remote add 指令, 建立 gitlab 與 bitbucket 上的同步倉儲.</yt-formatted-string></h4>
+<p>----------------------------------</p>
+<p>老師影片<iframe width="560" height="314" src="//www.youtube.com/embed/Z-l3vZXzrZs?list=WL&amp;index=6" allowfullscreen="allowfullscreen"></iframe></p><h1>Python 手冊</h1>
 <p>計算機程式教材:&nbsp;&nbsp;<a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a>&nbsp;</p>
 <p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p>
 <h1>OnShape 手冊</h1>
